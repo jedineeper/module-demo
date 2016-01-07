@@ -8,5 +8,5 @@ module "demo" {
 }
 
 output "demo-url" {
-  value = "${module.demo.output.url}"
+  value = "${module.demo.url}"
 }
